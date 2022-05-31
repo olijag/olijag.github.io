@@ -1,0 +1,80 @@
+/* =================== VARIABLES =================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+:root {
+    --background: #272727;
+    --secondary: #747474;
+    --orange: #FF652F;
+    --yellow: #FFE400;
+    --green: #14A76C;
+}
+
+/* =================== STYLING =================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+}
+
+/* ======== HEADER, NAVBAR ======== */
+
+header {
+    margin-top: 10px;
+    width: 50%;
+    height: 80px;
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#UL_NAVBAR {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#UL_NAVBAR>li {
+    float: left;
+}
+
+#UL_NAVBAR>li>a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 70px;
+    text-decoration: none;
+}
+
+#UL_NAVBAR>li>a:hover {
+    cursor: pointer;
+    background-color: black;
+    border-radius: 90px;
+    color: white;
+    transition: 300ms ease;
+}
+
+/* ======== ARTICLE ======== */
+article {
+    width: 65%;
+    height: 800px;
+    justify-self: center;
+    background: blue;
+}
+
+#LEFT_CONTAINER {}
+
+/* ======== CALENDER ======== */
+
+#CALENDER {}

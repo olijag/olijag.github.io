@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E2E2E;
+    color: white;
+}
+
+#MENU {
+    width: 850px;
+    height: 100px;
+    background-color: #1b1b1b;
+}
+
+#ACCOUNT-BALANCE {
+    width: 300px;
+    height: 100px;
+    background-color: #1b1b1b;
+    display: grid;
+    align-content: center;   
+    justify-content: center;
+}
+
+#ACCOUNT-BALANCE .p1 {
+    font-size: 15px;
+    color: #cccccc;
+}
+
+#ACCOUNT-BALANCE > div {
+    display: inline-block;
+}
+
+
+.wrapper {
+    display: inline-flex;
+}
+
+#MAIN-CONTAINER {
+    width: 850px;
+    height: 540px;
+    background-color: black;
+}
+
+/* ============= STYLING NAVBAR =============  */
+
+#MENU > ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #1b1b1b;
+}
+
+#MENU > ul > li {
+    float: left;
+}
+
+#MENU > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 58.7px;
+    text-decoration: none;
+}
+
+#MENU > ul > li > a:hover {
+    cursor: pointer;
+    background-color: #111;
+}
+
+/* ============= STYLING STATS CONTAINER =============  */
+
+#STATS-CONTAINER {
+    float: right;
+    width: 300px;
+    height: 540px;
+}
+
+#STATS-HEADER {
+    width: 300px;
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-styling {
+    margin-top: 20px;
+    height: 100px;
+    background-color: #424242;
+    border-radius: 3px 20px 3px 20px;
+}
+
+/* ============= STYLING USER LEVEL CONTAINER =============  */
+
+

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Poppins:wght@700&family=Roboto+Mono:wght@400;500&display=swap');
+
+
+:root {
+    --purple1: #9f3afc;
+    --purple2: #53039d;
+    --yellow: #FACF39;
+    --yellow2: #d2a400;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::selection {
+    background: #FACF39;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, var(--purple1), var(--yellow2));
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    float: left;
+    margin-right: 80px;
+}
+
+#logoText {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#bitcoinIcon {
+    color: var(--yellow);
+    font-size: 35px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Roboto Mono', monospace;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+li a:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+
+#intro {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.introGridItem {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+#introContainerLeft {
+    display: grid;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#introContainerRight {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: .15rem;
+
+}
+
+#introButtonStartNow {
+    padding: 13px;
+    border-radius: 55px;
+    font-size: 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: .10rem;
+}
+
+#introButtonStartNow:hover {
+    cursor: pointer;
+    background-color: rgba(250, 207, 57, 5);
+}
